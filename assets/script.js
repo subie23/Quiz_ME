@@ -175,7 +175,7 @@
               timeleft = timeleft - 3;
           };
 
-        //go to next question, check if there is more questions
+        //go to next question
           QuestionIndex++
             if  (arrayShuffledQuestions.length > QuestionIndex + 1) {
                 setQuestion()
@@ -186,7 +186,7 @@
                 }
     }
 
-        //Display total score screen at end of game
+        //Display total score at the end of game
     var showScore = function () {
         containerQuestionEl.classList.add("hide");
         containerEndEl.classList.remove("hide");
@@ -217,7 +217,7 @@
       HighScores.push(HighScore);
       HighScores.sort((a, b) => {return b.score-a.score});
 
-    //clear visibile list to resort
+    //clear visibile list
     while (listHighScoreEl.firstChild) {
        listHighScoreEl.removeChild(listHighScoreEl.firstChild)
     }
@@ -239,7 +239,7 @@
             
     }
 
-    //load values/ called on page load
+    //load values
     var loadHighScore = function () {
         var LoadedHighScores = localStorage.getItem("HighScores")
             if (!LoadedHighScores) {

@@ -7,7 +7,7 @@
     --secondary: #3009bf;
     --tertiary: rgb(218, 35, 35);
     --white: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 18px;
   }
 
   body {
@@ -121,7 +121,7 @@
   .btn {
       background: var(--secondary);
       color: var(--white);
-      padding: 50px;
+      padding: 30px;
       border-radius: 10px;
       border: none;
       box-shadow: 0 3px grey;
