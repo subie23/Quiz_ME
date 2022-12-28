@@ -7,11 +7,11 @@
     --secondary: #3009bf;
     --tertiary: rgb(218, 35, 35);
     --white: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 28px;
   }
 
   body {
-    background: #c5c2c4;
+    background: #d7d4d7;
     color: var(--secondary);
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@
 
   header h4 {
       padding-left: 20px;
-      font-size: 32px;
+      font-size: 2.0rem;
       display: inline;
   }
   
@@ -121,7 +121,7 @@
   .btn {
       background: var(--secondary);
       color: var(--white);
-      padding: 30px;
+      padding: 10px;
       border-radius: 10px;
       border: none;
       box-shadow: 0 3px grey;
@@ -155,7 +155,6 @@
  .startend {
      width: 25%;
      margin-top: 10px;
-     font-size: 48px;
  }
 
  .answerbtn {
@@ -202,7 +201,7 @@ li {
 
     .btn {
         width: 100%;
-        font-size: 18px;
+        font-size: 3.0vw;
     }
 
     #question {
